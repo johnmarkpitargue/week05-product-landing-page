@@ -30,9 +30,9 @@
             <div class="reveal grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
 
                 <div class="grid grid-cols-2 gap-4">
-                    <img src="https://images.unsplash.com/photo-1626804475297-411878cbf9c1?auto=format&fit=crop&w=600&q=80" alt="Close-up bowl of palabok topped with shrimp, egg, and chicharon" class="col-span-2 h-56 w-full rounded-2xl object-cover shadow-lg transition duration-500 hover:scale-[1.02]">
-                    <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=400&q=80" alt="Fresh rice noodles and toppings being prepared" class="h-40 w-full rounded-2xl object-cover shadow-lg transition duration-500 hover:scale-[1.02]">
-                    <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=400&q=80" alt="Packed palabok order ready for pick-up" class="h-40 w-full rounded-2xl object-cover shadow-lg transition duration-500 hover:scale-[1.02]">
+                    <img src="https://th.bing.com/th/id/OIP.yPA36_GII3fkGDlnD7vX-gHaEy?w=286&h=186&c=7&r=0&o=7&pid=1.7&rm=3" alt="Close-up bowl of palabok topped with shrimp, egg, and chicharon" class="col-span-2 h-56 w-full rounded-2xl object-cover shadow-lg transition duration-500 hover:scale-[1.02]">
+                    <img src="https://th.bing.com/th/id/OIP.kqwbkhBwNZhf9HBJXY6xNAHaE3?w=293&h=192&c=7&r=0&o=7&pid=1.7&rm=3" alt="Fresh rice noodles and toppings being prepared" class="h-40 w-full rounded-2xl object-cover shadow-lg transition duration-500 hover:scale-[1.02]">
+                    <img src="https://th.bing.com/th/id/OIP.mjuyu5_P5Pb0jMgPkL9LIQHaFP?w=269&h=190&c=7&r=0&o=7&pid=1.7&rm=3" alt="Packed palabok order ready for pick-up" class="h-40 w-full rounded-2xl object-cover shadow-lg transition duration-500 hover:scale-[1.02]">
                 </div>
 
                 <div>
