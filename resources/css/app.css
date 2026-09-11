@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-gray-800 bg-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-palabok-600 px-6 py-3 text-sm font-semibold text-white shadow-md transition hover:bg-palabok-700 hover:shadow-lg active:scale-95;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-gray-300 bg-white px-6 py-3 text-sm font-semibold text-gray-700 transition hover:border-palabok-400 hover:text-palabok-600 active:scale-95;
+  }
+  .section-label {
+    @apply text-sm font-semibold uppercase tracking-wider text-palabok-600;
+  }
+}
+
+/* ---- Scroll-reveal animation ---- */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-stagger > * {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.reveal-stagger.is-visible > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-stagger.is-visible > *:nth-child(1) { transition-delay: 0ms; }
+.reveal-stagger.is-visible > *:nth-child(2) { transition-delay: 80ms; }
+.reveal-stagger.is-visible > *:nth-child(3) { transition-delay: 160ms; }
+.reveal-stagger.is-visible > *:nth-child(4) { transition-delay: 240ms; }
+.reveal-stagger.is-visible > *:nth-child(5) { transition-delay: 320ms; }
+.reveal-stagger.is-visible > *:nth-child(6) { transition-delay: 400ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .reveal-stagger > * {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* ---- Modal ---- */
+.js-modal {
+  transition: opacity 0.25s ease;
+  opacity: 0;
+}
+.js-modal.modal-active {
+  opacity: 1;
+}
+.modal-panel {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  opacity: 0;
+  transform: translateY(16px) scale(0.96);
+}
+.js-modal.modal-active .modal-panel {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+body.modal-open {
+  overflow: hidden;
+}
+
+/* ---- Menu item hover ---- */
+.menu-item {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  border-radius: 0.75rem;
+}
+.menu-item:hover {
+  transform: translateX(4px);
+  background-color: theme('colors.palabok.50', #fff7ed);
+}
+.menu-thumb {
+  transition: transform 0.3s ease;
+}
+.menu-item:hover .menu-thumb {
+  transform: scale(1.08);
+}
