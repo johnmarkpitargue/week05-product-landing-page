@@ -173,18 +173,18 @@ week05-product-landing-page/
 
 > Screenshots are added after running the project locally and testing responsiveness (see `SETUP.md`). Place each file in `/screenshots` using the names below, then reference them here.
 
-- `screenshots/desktop.png` — Desktop view
-- `screenshots/tablet.png` — Tablet view
-- `screenshots/mobile.png` — Mobile view
-- `screenshots/navbar.png` — Navigation bar
-- `screenshots/hero.png` — Hero section
-- `screenshots/features.png` — Features section
-- `screenshots/pricing.png` — Pricing section
-- `screenshots/testimonials.png` — Testimonials section
-- `screenshots/footer.png` — Footer
-- `screenshots/vscode-structure.png` — VS Code project structure
-- `screenshots/blade-components-folder.png` — Blade components folder
-- `screenshots/github-repo.png` — GitHub repository
+- `screenshots/DESKTOP_VIEW.png` — Desktop view
+- `screenshots/TABLET_VIEW.png` — Tablet view
+- `screenshots/MOBILE_VIEW.png` — Mobile view
+- `screenshots/NAV_BAR.png` — Navigation bar
+- `screenshots/HERO_SECTION.png` — Hero section
+- `screenshots/FEATURE_SECTION.png` — Features section
+- `screenshots/PRICING_SECTION.png` — Pricing section
+- `screenshots/TESTIMONIALS.png` — Testimonials section
+- `screenshots/FOOTER.png` — Footer
+- `screenshots/VSCODE_STRUCTURE.png` — VS Code project structure
+- `screenshots/BLADE_COMPONENT_FOLDER.png` — Blade components folder
+- `screenshots/GITHUB_REPOSITORY.png` — GitHub repository
 
 ---
 
