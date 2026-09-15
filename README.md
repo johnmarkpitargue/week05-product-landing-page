@@ -171,8 +171,6 @@ week05-product-landing-page/
 
 ## 8. Screenshots
 
-> Screenshots are added after running the project locally and testing responsiveness (see `SETUP.md`). Place each file in `/screenshots` using the names below, then reference them here.
-
 - `screenshots/DESKTOP_VIEW.png` — Desktop view
 - `screenshots/TABLET_VIEW.png` — Tablet view
 - `screenshots/MOBILE_VIEW.png` — Mobile view
@@ -195,7 +193,6 @@ week05-product-landing-page/
 | **Before** | Initial wireframe / low-fidelity layout — plain HTML structure with no styling, used to plan section order (navbar → hero → features → showcase → pricing → testimonials → CTA → footer). |
 | **After** | Final polished, responsive interface using Tailwind CSS and Blade Components, with a consistent color palette, typography, spacing, and hover interactions across all devices. |
 
-Save the actual before/after images in `documentation/before.png` and `documentation/after.png`.
 
 ---
 
@@ -208,7 +205,7 @@ Save the actual before/after images in `documentation/before.png` and `documenta
 
 ## Local Setup
 
-See [`SETUP.md`](./SETUP.md) for full installation and run instructions, including an instant static preview at `preview/index.html` that requires no Laravel/Composer setup.
+See [`SETUP.md`](./SETUP.md) for full installation and run instructions
 
 ## Author
 
